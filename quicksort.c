@@ -26,7 +26,7 @@ void quickSort(int a[], int left, int right){
 }
 int main(){
     int a[]={7,2,9,4,1};
-    int n=5;
+    int n=5;    //Total number of elements
     quickSort(a,0,n-1);
     printf("After quick sort: ");
     for(int i=0;i<n;i++){
